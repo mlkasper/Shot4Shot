@@ -1,0 +1,93 @@
+
+* { 
+/*	border: 1px dotted red;*/
+	margin: auto;  
+ 
+}
+
+.container { /* make sure everything is lined up correctly. */
+	width: 1920px; 
+	margin: 0px auto; 
+	border-left: 2px solid; 
+}
+header { 
+	border: 2px solid; 
+	background: #003366; 
+	width: 1920px; 
+}
+#logo { 
+	width: 250px; 
+	padding-left: 20px; 
+
+}
+#menu-bar {
+	border-top: 2px solid; 
+	padding: 20px 0px 20px;
+	margin: 0px auto;
+	width: auto;  
+	text-align: center; 
+	font-size: 1.3em; 
+	word-spacing: 6em;
+
+}
+#menu-bar a, #menu-bar a:visited { 
+	color: white;
+	text-decoration: none; 
+}
+#menu-bar a:hover, #menu-bar a:focus, #menu-bar a:active { 
+	color: white;
+	text-decoration: underline; 
+}
+
+#right-most { /* Most Viewed, recently added. */ 
+	float: right; 
+	padding: 10px 0px; 
+	border-right: 2px solid; 
+	border-left: 2px solid; 
+	width: 15%; 
+}
+#right-most ol, #right-most ul {
+	font-family: 'Work Sans', sans-serif;
+}
+#right-most h4 { 
+	text-align: center;
+	padding: 10px 0px; 
+	margin: auto; 
+	font-family: 'Dosis', sans-serif;
+}
+.news { 
+	font-family: 'Work Sans', sans-serif; 
+	width: -85%; 
+	padding: 20px; 
+}
+.news h2 { 
+	font-weight: bold; 
+	font-size: 1.8em; 
+}
+.news h1 { 
+	text-align: center; 
+	font-size: 2em; 
+}
+.news h5 { 
+	font-style: italic; 
+	font-weight: lighter; 
+}
+footer { 
+	clear: both; 
+}
+#footer-material { 
+	padding: 10px 0; 
+	text-align: center; 
+	background: #003366; 
+	color: white; 
+
+}
+#main-footer a, #main-footer a:visited { 
+	text-decoration: none; 
+	color: white; 
+ 
+}
+#main-footer a:hover, #main-footer a:focus, #main-footer a:active { 
+	color: white;
+	text-decoration: underline; 
+}
