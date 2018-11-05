@@ -6,14 +6,14 @@
 }
 
 .container { /* make sure everything is lined up correctly. */
-	width: 1920px; 
+	width: 1280px; 
 	margin: 0px auto; 
-	border-left: 2px solid; 
+	border-left: solid none; 
 }
 header { 
 	border: 2px solid; 
 	background: #003366; 
-	width: 1920px; 
+	width: 1280px; 
 }
 #logo { 
 	width: 250px; 
