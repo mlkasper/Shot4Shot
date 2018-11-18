@@ -1,0 +1,126 @@
+
+* { 
+/*	border: 1px dotted red;*/
+	margin: auto;  
+ 
+ 
+}
+
+.container { /* make sure everything is lined up correctly. */
+	width: 1280px; 
+	margin: 0px auto; 
+	border-left: solid 2px black; 
+	padding-left: 22px; 
+	background: #f0f8ff; 
+	display: block; /* This is to fit the contents to fill the page */ 
+	overflow: auto; 
+}
+header { 
+	border: 2px solid; 
+	background: #003366;
+	padding-left: 20px; 
+	width: 1280px; 
+}
+#logo { 
+	width: 250px; 
+	padding-left: 20px; 
+
+}
+#menu-bar {
+	padding: 20px 30px; 
+	margin: 0px ;
+	width: auto; 
+	float:right; 
+	text-align: center; 
+	font-size: 1.3em; 
+	word-spacing: 4.5em;
+	position: relative;
+
+}
+#menu-bar ul li {
+	display: inline; 
+}
+#menu-bar a, #menu-bar a:visited { 
+	color: white;
+	text-decoration: none; 
+}
+#menu-bar a:hover, #menu-bar a:focus, #menu-bar a:active { 
+	color: white;
+	text-decoration: underline; 
+}
+
+#right-most { /* Most Viewed, recently added. */ 
+	float: right; 
+	padding: 10px 12px;
+	border-right: 2px solid; 
+	border-left: 2px solid; 
+	width: 15%; 
+	font-size: 15px; 
+}
+#right-most ol, #right-most ul {
+	font-family: 'Work Sans', sans-serif; 
+	padding: 0px 5px 0px 10px; 
+}
+#right-most ol li {
+	list-style-position: inside; 
+	padding-bottom: 10px; 
+
+}
+#right-most h4 { 
+	text-align: center;
+	padding: 10px 0px; 
+	margin: auto; 
+	font-family: 'Dosis', sans-serif;
+}
+.news { 
+	font-family: 'Work Sans', sans-serif; 
+	width: -85%;
+}
+.news p { 
+	
+}
+.news h2 { 
+	font-weight: bold; 
+	font-size: 1.8em; 
+	position: relative;  
+}
+.news h1 { 
+	text-align: center; 
+	font-size: 2em; 
+}
+.news h5 { 
+	font-style: italic; 
+	font-weight: lighter; 
+}
+footer { 
+	clear: both;  
+	width: 1300px; 
+	border: solid 2px black; 
+	margin: auto; 
+}
+#footer-material { 
+	padding: 10px 0; 
+	text-align: center; 
+	background: #003366; 
+	color: white; 
+
+}
+#main-footer a, #main-footer a:visited { 
+	text-decoration: none; 
+	color: white; 
+ 
+}
+#main-footer a:hover, #main-footer a:focus, #main-footer a:active { 
+	color: white;
+	text-decoration: underline; 
+}
+#right-most a, #right-most a:visited {
+	color: black; 
+	text-decoration: none; 
+	
+}
+#right-most a:hover, #right-most a:focus, #right-most  a:active {
+	font-weight: bold; 
+	color: black; 
+	text-decoration: none; 
+}
