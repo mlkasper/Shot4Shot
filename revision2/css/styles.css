@@ -82,7 +82,8 @@ header {
 .news h2 { 
 	font-weight: bold; 
 	font-size: 1.8em; 
-	position: relative;  
+	position: relative;
+	margin-right: 200px;  
 }
 .news h1 { 
 	text-align: center; 
